@@ -2,9 +2,16 @@ import time
 import pandas as pd
 import numpy as np
 
+# This program analyzes bikeshare data for Chicago, New York City, and Washington
+
+
+# Dictionary mapping city names to their CSV data files
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+
+# Function to get user input for city, month, and day filters
 
 def get_filters():
     """
