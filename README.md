@@ -32,3 +32,6 @@ python bikeshare.py
 ## Date Created
 
 May 2026
+
+## Known Issues
+- Washington dataset does not include gender or birth year data
