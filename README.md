@@ -35,3 +35,7 @@ May 2026
 
 ## Known Issues
 - Washington dataset does not include gender or birth year data
+
+## Credits
+- Udacity Data Science Nanodegree Program
+- Project template provided by Udacity
