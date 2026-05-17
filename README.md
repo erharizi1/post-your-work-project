@@ -1,27 +1,37 @@
 >**Note**: Please **fork** this Udacity repository so you have a **remote** repository in **your** GitHub account. Then you can clone the remote repository to your local machine. Later, as a part of the project, you will push your changes to the remote repository in your GitHub account.
 
 
-# Project Title
+# US Bikeshare Data Explorer
 
-Describe what your project is about and what it does
+An interactive Python program that explores bikeshare data from three US cities: Chicago, New York City, and Washington.
 
-## Information about how to use your project
+## How to Use
 
-This could include:
+1. Run the program:
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+python bikeshare.py
 
-## Contribution guidelines
+2. Choose a city: `chicago`, `new york city`, or `washington`
+3. Choose a month to filter by (january to june) or `all`
+4. Choose a day of the week or `all`
+5. The program will display statistics for your selection
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+## Statistics Displayed
 
-## Credits
+- Most frequent times of travel (month, day, hour)
+- Most popular stations and trips
+- Total and average trip duration
+- User statistics (types, gender, birth year)
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## Dependencies
 
-## Date created
+- Python 3
+- pandas
+- numpy
 
-Include the date you created this project and README file.
+## Date Created
+
+May 2026
+
+## Known Issues
+- Washington dataset does not include gender or birth year data
